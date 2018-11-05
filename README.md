@@ -1,6 +1,3 @@
-@@ -0,0 +1,8 @@
-all: README.md
-README.md:
-	echo '# Guessing Game Bash Script for Unix Workbench\n' > README.md
-	echo '* This Make file was ran at: $(shell date +%Y-%m-%d:%H:%M:%S)\n' >> README.md
-	echo '* There were $(shell wc -l < guessinggame.sh) lines in guessinggame.sh\n' >> README.md
+# Guessing Game Bash Script for Unix Workbench
+ * This Make file was ran at: 2018-11-06:02:02:31
+ * There were 23 lines in guessinggame.sh
